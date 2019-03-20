@@ -50,6 +50,9 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#additionalInfo">More</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -58,10 +61,16 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/portfolio/mkzarra.jpg" id="MikeZ" style="height:22em; width:22em;" style="border-radius:50%;" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/portfolio/mkzarra.jpg" id="MikeZ" alt="">
         <h1 class="text-uppercase mb-0">Mike Zarra</h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Web Developer - Musician - Dog Lover</h2>
+        <div class="text-center mt-4" style="padding-top: 72px;">
+          <a class="btn btn-xl btn-outline-light" href="./img/portfolio/Resume_ M. Zarra .pdf" target="_blank">
+            <i class="fa fa-download mr-2"></i>
+            View My Resume
+          </a>
+        </div>
       </div>
     </header>
 
@@ -78,12 +87,6 @@
           <div class="col-lg-4 mr-auto">
             <p class="lead">I loved the problem solving involved in accounting, but I fell in love with programming. There are always new challenges to take on, and the possibilities are limitless. Software development gives me the opportunity to continue learning beyond my education and throughout my professional career.</p>
           </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="./img/portfolio/Resume_ M. Zarra .pdf" target="_blank">
-            <i class="fa fa-download mr-2"></i>
-            Resume
-          </a>
         </div>
       </div>
     </section>
@@ -164,11 +167,8 @@
       <div class="container">
         <h2 class="text-center text-uppercase text-white">Skills</h2>
         <hr class="star-light mb-5">
-        <div class="row">
-          <p class="text-center lead">
-            JavaScript | Ruby on Rails | PostgreSQL | MongoDB | Express | Mongoose | jQuery | AJAX | Axios | CSS | React | HTML5
-          </p>
-        </div>
+        <p class="text-center lead">JavaScript | React | Redux | Ruby on Rails | PostgreSQL | MongoDB | Express | Mongoose | jQuery | CSS3 | HTML5</p>
+        <p class="text-center lead">Communication | Empathy | Team Player | Self-starter</p>
       </div>
     </section>
     <!-- Contact Section -->
@@ -230,7 +230,7 @@
               <br>North Kingstown, RI 02852</p>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <h4 id="additionalInfo" class="text-uppercase mb-4">More Resources</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
                 <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/mkzarra" target="_blank">
@@ -247,7 +247,13 @@
                   <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://stackoverflow.com/users/story/10553519" target="_blank">
+                  <i class="fa fa-fw fa-stack-overflow"></i>
+                </a>
+              </li>
             </ul>
+            <p class="lead mb-0">Feel free to visit these links to contact me or learn more</p>
           </div>
           <div class="col-md-4">
             <h4 class="text-uppercase mb-4">Acknowledgements</h4>
@@ -329,7 +335,7 @@
               <a id="nozama" target="_blank" href="https://ga-team-project.github.io/nozama_client">
               <img class="img-fluid mb-5" src="./img/portfolio/Screenshot from 2018-09-04 13-00-50.png" alt="">
               </a>
-              <p class="mb-5">Nozama is an eCommerce site built using Express, MongoDB, Mongoose, and Stripe on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/GA-Team-Project/nozama-api">back end</a> and Bootstrap, Handlebars, and jQuery on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/GA-Team-Project/nozama_client">front end</a>. Integrating Stripe with this application was challenging. I learned so much about working with multiple code bases (ours and stripe's) and we even added some security features to our own checkout logic. This project was team effort, and I am greatful to have been a part of it. Click the image to visit! <br />NOTE: To sample our Stripe checkout, use this card number: 4242 4242 4242 4242. Any three digit security code and any five digit zip code will work.</p>
+              <p class="mb-5">Nozama is an eCommerce site built using Express, MongoDB, Mongoose, and Stripe on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/GA-Team-Project/nozama-api">back end</a> and Bootstrap, Handlebars, and jQuery on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/GA-Team-Project/nozama_client">front end</a>. Integrating Stripe with this application was challenging. I learned so much about working with multiple code bases (ours and stripe's) and we even added some security features to our own checkout logic. This project was team effort, and I am greatful to have been a part of it. Click the image to visit! <br />NOTE: To sample our Stripe checkout, use this card number: 4242 4242 4242 4242. Any three digit security code, future data, and any five digit zip code will work.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>
@@ -375,7 +381,7 @@
               <h2 class="text-secondary text-uppercase mb-0">Inventory Tracker</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="./img/portfolio/Work_In_Progress.png" alt="">
-              <p class="mb-5">This inventory management app is the project I am currently working on. It and is being built in Node using Express and Mongoose on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/mkzarra/inventory-tracker-api">back end</a> and React on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/mkzarra/inventory-tracker-client">front end</a>.</p>
+              <p class="mb-5">This inventory management app is the project I am currently working on. It will send emails to users when their perishibles are approaching their expiration date. It and is being built in Node using Express and Mongoose on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/mkzarra/inventory-tracker-api">back end</a> and React with Redux on the <a style="color:rgb(58, 114, 102)" target="_blank" href="https://github.com/mkzarra/inventory-tracker-client">front end</a>.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close</a>

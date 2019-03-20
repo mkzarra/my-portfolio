@@ -172,6 +172,10 @@ header.masthead {
   padding-bottom: 6rem;
 }
 
+header.masthead img {
+  border-radius: 50%
+}
+
 header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
