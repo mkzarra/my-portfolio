@@ -170,12 +170,11 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
-}
+} 
 
 header.masthead img {
   border-radius: 50%;
   box-sizing: border-box;
-  height: 428px;
 }
 
 header.masthead h1 {
