@@ -339,11 +339,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: rgb(20, 39, 35);
+	color: #1dbd9d;
 }
 
 a:focus, a:hover, a:active {
-  color: #2e8372;
+	color: #0de4b9;
 }
 
 .btn {
@@ -384,8 +384,4 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
-}
-
-#acknowlegement {
-  color: #2e8372;
 }
